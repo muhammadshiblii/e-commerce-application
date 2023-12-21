@@ -13,7 +13,7 @@ const Products = () => {
 		images: ""
 
 	})
-
+			// ydd
 	const GetData = (e) => {
 		setVal((pre) => ({ ...pre, [e.target.name]: e.target.value }))
 		console.log(val);
